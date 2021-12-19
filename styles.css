@@ -1,0 +1,61 @@
+/* Michael Mouet's JS Rock, Paper, Scissors */
+
+body {
+  font-family: Arial;	
+}
+
+.section-1 {
+  justify-content: center;
+  padding: 17vw 0;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  border: 2px solid black;
+  font-size: 22px;
+  width: 150px;
+  background-color: #F3F3F3;
+}
+
+
+#p1 {
+  font-size: 35px;
+  text-align: center;
+}
+
+
+
+@media (max-width: 767.98px) {
+
+  .section-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50vw 0;
+  }
+
+  .row {
+    display: block;
+  }
+
+  .btn {
+	  display: block;
+	  flex-wrap: wrap;
+    font-size: 16px;
+    justify-content: center;
+    margin: 3px;
+  }
+
+  #p1 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+
+}
